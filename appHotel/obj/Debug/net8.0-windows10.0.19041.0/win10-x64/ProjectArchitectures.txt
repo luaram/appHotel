@@ -1,0 +1,1 @@
+C:\Users\luara\source\repos\appHotel\appHotel\appHotel.csproj;x64

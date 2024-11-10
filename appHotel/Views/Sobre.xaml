@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="appHotel.Views.Sobre"
+             Title="Sobre"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="{StaticResource Gray500}">
+
+    <VerticalStackLayout VerticalOptions="CenterAndExpand"
+                      Padding="10">
+        <Label 
+Text="Hotel Ocean"
+ FontFamily="Jersey25ChartedRegular"
+ FontSize="30"
+ TextColor="{StaticResource MidnightBlue}"
+ HorizontalTextAlignment="Center"
+  VerticalTextAlignment="Center"/>
+
+        <Label 
+     Text="Fundado em 2016, nosso hotel à beira-mar oferece uma experiência única de conforto e tranquilidade. Com instalações modernas e vistas deslumbrantes do oceano, é o refúgio ideal
+            para quem busca relaxamento e momentos inesquecíveis junto à natureza exuberante."
+      FontFamily="MolleItalic"
+      FontSize="15"
+      TextColor="{StaticResource MidnightBlue}"
+     />
+
+        <Label 
+            Text="Desenvolvedor:Luara M Guedes.Estudante de TI, SP/2024"
+             FontFamily="MolleItalic"
+             FontSize="12"
+               HorizontalTextAlignment="Center"
+                VerticalTextAlignment="Center"
+             TextColor="{StaticResource MidnightBlue}"
+            />
+
+       
+            <Button Text="Voltar à pagina inicial" Clicked="BotaoInicial"
+                     BackgroundColor="Gray"
+ TextColor="Black"/>
+        
+    </VerticalStackLayout>
+</ContentPage>
